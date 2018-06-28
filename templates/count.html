@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>There are {{ count }} word in your text.</h1>
+    <a href="{% url 'home' %}">Start again</a>
+    <h1>Your Text: </h1>
+    {{ fulltext }}
+    <br>
+    <h2>Most {{ txtmostcommon }} common words in the text</h2>
+
+
+
+    {{ most_common }}
+
+
+</body>
+
+</html>
